@@ -1,0 +1,43 @@
+# data and model files (datasets have their own licences; weights are large)
+data/
+dataset/
+pack/
+pack_*/
+*.tar
+*.zip
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.h5
+target_hashes.csv
+*manifest*.csv
+*_probs.csv
+folds.csv
+
+# secrets and credentials
+kaggle*
+.kaggle/
+*.env
+.env*
+*.pem
+id_rsa*
+
+# environments, caches, OS files
+.venv/
+.torch_cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
