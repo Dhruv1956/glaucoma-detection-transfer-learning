@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "clahe_clip_limit": 2.0,
+  "clahe_tile_grid_size": [
+    8,
+    8
+  ],
+  "resize_size": 256,
+  "crop_size": 224,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "batch_size": 32,
+  "num_workers": 0,
+  "dataset_out_dir": "/home/claude/fake_home/Downloads/GlaucomaProject/dataset",
+  "results_out_dir": "/home/claude/fake_home/Downloads/GlaucomaProject/results"
+}
