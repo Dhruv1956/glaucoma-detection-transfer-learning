@@ -1,0 +1,26 @@
+{
+  "init": "odirbin",
+  "init_weights": "odir_binary_effb0_s123.pt",
+  "pretrain_seed": 123,
+  "arch": "efficientnet_b0",
+  "img_size": 224,
+  "pack_resize": 256,
+  "fold": 3,
+  "seed": 303,
+  "device": "cuda",
+  "amp": true,
+  "epochs_phase_a": 15,
+  "epochs_phase_b": 9,
+  "best_val_loss_phase_a": 0.601439596662734,
+  "best_val_loss_phase_b": 0.6339792653530504,
+  "phase_chosen": "A",
+  "best_val_loss": 0.601439596662734,
+  "n_inner_train": 1620,
+  "n_inner_val": 269,
+  "n_heldout": 210,
+  "class_weights": [
+    0.6428571428571429,
+    2.25
+  ],
+  "seconds": 120.4
+}

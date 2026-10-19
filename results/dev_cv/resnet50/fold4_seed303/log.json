@@ -1,0 +1,20 @@
+{
+  "fold": 4,
+  "seed": 303,
+  "device": "cuda",
+  "amp": true,
+  "epochs_phase_a": 9,
+  "epochs_phase_b": 7,
+  "best_val_loss_phase_a": 0.6269839994640272,
+  "best_val_loss_phase_b": 0.688015341758728,
+  "phase_chosen": "A",
+  "best_val_loss": 0.6269839994640272,
+  "n_inner_train": 1439,
+  "n_inner_val": 241,
+  "n_heldout": 419,
+  "class_weights": [
+    0.6361626878868258,
+    2.336038961038961
+  ],
+  "seconds": 79.7
+}

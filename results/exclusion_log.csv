@@ -1,0 +1,26 @@
+source,subdir,classification,reason
+ORIGA,ORIGA/Images,images,canonical classification image folder
+ORIGA,ORIGA/Images_Cropped,excluded,resized/cropped derivative
+ORIGA,ORIGA/Images_Square,excluded,resized/cropped derivative
+ORIGA,ORIGA/Masks,excluded,segmentation mask
+ORIGA,ORIGA/Masks_Cropped,excluded,segmentation mask
+ORIGA,ORIGA/Masks_Square,excluded,segmentation mask
+ORIGA,ORIGA/Semi-automatic-annotations,excluded,annotation metadata
+G1020,G1020/Images,images,canonical classification image folder
+G1020,G1020/Images_Cropped,excluded,resized/cropped derivative
+G1020,G1020/Images_Square,excluded,resized/cropped derivative
+G1020,G1020/Masks,excluded,segmentation mask
+G1020,G1020/Masks_Cropped,excluded,segmentation mask
+G1020,G1020/Masks_Square,excluded,segmentation mask
+G1020,G1020/NerveRemoved_Images,excluded,processed derivative image
+REFUGE_train,REFUGE/train/Images,images,canonical classification image folder
+REFUGE_train,REFUGE/train/Images_Cropped,excluded,resized/cropped derivative
+REFUGE_train,REFUGE/train/Masks,excluded,segmentation mask
+REFUGE_train,REFUGE/train/Masks_Cropped,excluded,segmentation mask
+REFUGE_train,REFUGE/train/gts,excluded,ground-truth/illustration folder
+REFUGE_train,REFUGE/train/illustrations,excluded,ground-truth/illustration folder
+REFUGE_val,REFUGE/val/Images,images,canonical classification image folder
+REFUGE_val,REFUGE/val/Images_Cropped,excluded,resized/cropped derivative
+REFUGE_val,REFUGE/val/Masks,excluded,segmentation mask
+REFUGE_val,REFUGE/val/Masks_Cropped,excluded,segmentation mask
+REFUGE_val,REFUGE/val/gts,excluded,ground-truth/illustration folder

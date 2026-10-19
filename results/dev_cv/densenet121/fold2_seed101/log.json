@@ -1,0 +1,21 @@
+{
+  "arch": "densenet121",
+  "fold": 2,
+  "seed": 101,
+  "device": "cuda",
+  "amp": true,
+  "epochs_phase_a": 15,
+  "epochs_phase_b": 7,
+  "best_val_loss_phase_a": 0.5567789493260047,
+  "best_val_loss_phase_b": 0.5651734820045377,
+  "phase_chosen": "A",
+  "best_val_loss": 0.5567789493260047,
+  "n_inner_train": 1438,
+  "n_inner_val": 241,
+  "n_heldout": 420,
+  "class_weights": [
+    0.648331830477908,
+    2.185410334346505
+  ],
+  "seconds": 115.9
+}

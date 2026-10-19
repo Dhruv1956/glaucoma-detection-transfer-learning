@@ -1,0 +1,21 @@
+{
+  "arch": "efficientnet_b0",
+  "fold": 2,
+  "seed": 303,
+  "device": "cuda",
+  "amp": true,
+  "epochs_phase_a": 15,
+  "epochs_phase_b": 9,
+  "best_val_loss_phase_a": 0.5661261737099327,
+  "best_val_loss_phase_b": 0.5565074361335193,
+  "phase_chosen": "B",
+  "best_val_loss": 0.5565074361335193,
+  "n_inner_train": 1438,
+  "n_inner_val": 241,
+  "n_heldout": 420,
+  "class_weights": [
+    0.648331830477908,
+    2.185410334346505
+  ],
+  "seconds": 104.1
+}
