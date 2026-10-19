@@ -1,0 +1,26 @@
+{
+  "init": "imagenet",
+  "init_weights": null,
+  "pretrain_seed": null,
+  "arch": "resnet50",
+  "img_size": 224,
+  "pack_resize": 256,
+  "fold": 8,
+  "seed": 404,
+  "device": "cuda",
+  "amp": true,
+  "epochs_phase_a": 9,
+  "epochs_phase_b": 10,
+  "best_val_loss_phase_a": 0.6236764307375308,
+  "best_val_loss_phase_b": 0.6753281187128137,
+  "phase_chosen": "A",
+  "best_val_loss": 0.6236764307375308,
+  "n_inner_train": 1618,
+  "n_inner_val": 270,
+  "n_heldout": 211,
+  "class_weights": [
+    0.6345098039215686,
+    2.358600583090379
+  ],
+  "seconds": 101.6
+}

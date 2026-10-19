@@ -1,0 +1,13 @@
+{
+  "expected_reference": {
+    "total": 2470,
+    "normal": 1926,
+    "glaucoma": 544
+  },
+  "actual": {
+    "total": 2470,
+    "normal": 1926,
+    "glaucoma": 544
+  },
+  "match": true
+}

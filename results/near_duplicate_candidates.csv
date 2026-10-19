@@ -1,0 +1,9 @@
+source_a,file_a,source_b,file_b,hash_dist,pixel_mae
+G1020,image_1982.jpg,G1020,image_2658.jpg,3,3.39
+G1020,image_2735.jpg,G1020,image_3039.jpg,2,2.99
+REFUGE_train,g0006.jpg,REFUGE_train,g0007.jpg,1,4.44
+REFUGE_train,n0043.jpg,REFUGE_train,n0044.jpg,1,4.68
+REFUGE_train,n0015.jpg,REFUGE_train,n0158.jpg,1,4.62
+REFUGE_train,n0039.jpg,REFUGE_train,n0206.jpg,1,3.54
+REFUGE_train,n0034.jpg,REFUGE_train,n0248.jpg,0,4.96
+REFUGE_train,n0103.jpg,REFUGE_train,n0283.jpg,2,4.85
