@@ -2,7 +2,7 @@
 
 **A strict multi-source evaluation: grouped cross-validation, ODIR pretraining and seed ensembles (ResNet50, DenseNet121, EfficientNet-B0).**
 
-> Research code only. This is **not a medical device** and must not be used for clinical decisions. The accompanying paper is an unreviewed draft.
+> Research code only. This is **not a medical device** and must not be used for clinical decisions. The accompanying paper is an unreviewed manuscript.
 
 ## At a glance (2-minute read)
 
@@ -77,7 +77,7 @@ Per-run summaries (`results.json`, run logs, training figures) for every configu
 - **G1020 is at chance level**, and we do not know why. Pooled results therefore hide very different behaviour across sources.
 - **One fold partition.** Only a single fold partition was used.
 - **Test split.** The 369-image test split was opened twice early in the project (see [Data](#data)); it is not used for any comparison reported here.
-- **Draft paper.** The paper is a draft and has not been peer reviewed.
+- **Unreviewed paper.** The paper has not been peer reviewed.
 - Research prototype: no prospective or external clinical validation.
 
 ## How to reproduce
