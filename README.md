@@ -1,8 +1,8 @@
 # Transfer Learning for Glaucoma Detection from Fundus Images
 
-**Multi-source evaluation of ResNet50, DenseNet121 and EfficientNet-B0: grouped cross-validation, ODIR pretraining and seed ensembles.**
+**Grouped cross-validation, ODIR pretraining and seed ensembles for ResNet50, DenseNet121 and EfficientNet-B0 on pooled multi-source fundus data.**
 
-> **Research code only. Not a medical device and not for clinical use.** The accompanying manuscript is under review and has not been peer reviewed.
+> **Research code only. Not a medical device and not for clinical use.**
 
 ## Headline results
 
@@ -37,12 +37,9 @@ Read the [limitations](#limitations) before drawing conclusions: the selection o
 
 ## Paper
 
-**[title withheld]**
+An associated manuscript is under review. A citation will be added here after publication.
 
-
-- DOI / link: _to be added after publication_
-
-### Authors
+## Authors
 
 - Dhruva R M Upadhyaya (ORCID [0009-0005-1014-7529](https://orcid.org/0009-0005-1014-7529))
 - Rijul Bhatia (ORCID [0009-0006-7584-1199](https://orcid.org/0009-0006-7584-1199))
@@ -85,7 +82,7 @@ Three public fundus datasets are used for classification (ORIGA, G1020, REFUGE) 
 - **G1020 is at chance level**, and we do not know why. Pooled results therefore hide very different behaviour across sources.
 - **One fold partition.** Only a single fold partition was used.
 - **Test split.** The 369-image test split was opened twice early in the project (see [Data](#data)); it is not used for any comparison reported here.
-- **Draft status.** The manuscript is under review and has not been peer reviewed.
+- **Peer review.** An associated manuscript is under review; the results here have not been peer reviewed.
 - Research prototype: no prospective or external clinical validation.
 
 ## Repository structure
@@ -100,7 +97,7 @@ Three public fundus datasets are used for classification (ORIGA, G1020, REFUGE) 
 │   ├── prep_pack.py, hash_target.py, prep_odir.py, pretrain_odir.py, compare_archs.py, test_odir_local.py
 ├── analysis/        final analysis (analyze_final.py), figure script, final numbers (md, json)
 ├── results/         small per-run summaries (results.json, run logs, figures), development CV
-├── figures/         the two paper figures (ROC curves, ROC-AUC by source)
+├── figures/         the two result figures (ROC curves, ROC-AUC by source)
 └── docs/            audit and design notes from earlier project phases
 ```
 
@@ -119,7 +116,7 @@ No data is included. The code needs the original datasets from their providers. 
 
 | Dataset | Used for | Where to get it | Terms |
 |---|---|---|---|
-| ORIGA(-light) | classification | Described in Zhang et al., IEEE EMBC 2010 (doi [10.1109/IEMBS.2010.5626137](https://doi.org/10.1109/IEMBS.2010.5626137)); the paper states access is granted on request via the Singapore Eye Research Institute | provider's terms |
+| ORIGA(-light) | classification | Described in Zhang et al., IEEE EMBC 2010 (doi [10.1109/IEMBS.2010.5626137](https://doi.org/10.1109/IEMBS.2010.5626137)); the original publication states access is granted on request via the Singapore Eye Research Institute | provider's terms |
 | G1020 | classification | Bajwa et al., IJCNN 2020 ([arXiv:2006.09158](https://arxiv.org/abs/2006.09158), doi [10.1109/IJCNN48605.2020.9207664](https://doi.org/10.1109/IJCNN48605.2020.9207664)); follow the dataset link given by the authors | provider's terms |
 | REFUGE | classification | [refuge.grand-challenge.org](https://refuge.grand-challenge.org/) (see its download page); Orlando et al., Med. Image Anal. 2020, doi [10.1016/j.media.2019.101570](https://doi.org/10.1016/j.media.2019.101570) | provider's terms |
 | ODIR-2019 | optional pretraining | [odir2019.grand-challenge.org](https://odir2019.grand-challenge.org/); the notebooks read the public Kaggle copy `andrewmvd/ocular-disease-recognition-odir5k` | provider's terms (check the Kaggle copy too) |
@@ -161,8 +158,9 @@ For research and education only. Not a medical device, not validated for clinica
 - **G1020:** M. N. Bajwa et al., "G1020: A benchmark retinal fundus image dataset for computer-aided glaucoma detection," IJCNN, 2020.
 - **REFUGE:** J. I. Orlando et al., "REFUGE challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs," Medical Image Analysis, 2020.
 - **ODIR-2019:** Peking University International Competition on Ocular Disease Intelligent Recognition (2019).
+- Methods: K. Zuiderveld, "Contrast limited adaptive histogram equalization," Graphics Gems IV, 1994; K. He et al., "Deep residual learning for image recognition," CVPR 2016; J. Deng et al., "ImageNet," CVPR 2009.
 
-To cite this work, see [`CITATION.cff`](CITATION.cff) (the manuscript is under review).
+To cite this repository, see [`CITATION.cff`](CITATION.cff). A citation for the associated manuscript will be added after publication.
 
 ## Licence
 

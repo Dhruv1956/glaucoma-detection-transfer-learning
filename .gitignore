@@ -52,3 +52,5 @@ results_final/
 .claude/
 *.egg-info/
 *.bak
+
+# local-only folder (must not be committed)

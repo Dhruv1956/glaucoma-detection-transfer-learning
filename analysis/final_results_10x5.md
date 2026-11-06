@@ -1,6 +1,6 @@
 # Final results: 10 grouped folds x 5 seeds, five arms
 
-Protocol as locked before the final run (see the selection rule in the paper, Section IV). The sealed test set was not used. All numbers below were recomputed from the saved held-out probabilities of each arm with `analysis/analyze_final.py`; the machine-readable version is `analysis/final_numbers.json`. The same folds are used in every arm. Group bootstrap: 1,000 resamples by group_id, one shared set of resamples for all models, so paired differences are valid. Intervals treat the trained models as fixed.
+Protocol as locked before the final run (selection rule fixed before the final run). The sealed test set was not used. All numbers below were recomputed from the saved held-out probabilities of each arm with `analysis/analyze_final.py`; the machine-readable version is `analysis/final_numbers.json`. The same folds are used in every arm. Group bootstrap: 1,000 resamples by group_id, one shared set of resamples for all models, so paired differences are valid. Intervals treat the trained models as fixed.
 
 Final ensemble = average of the 4 arm ensembles = 20 models (3 ODIR arms + eff384, 5 seed models each, equal weight per model). Baseline = ResNet50 224 px, 5-seed ensemble.
 
