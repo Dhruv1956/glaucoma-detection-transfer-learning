@@ -3,8 +3,8 @@ and test_thumbs_128.npz = 128x128 thumbnails of the 369 TEST images (for duplica
 
 Why: on Kaggle we must make sure no ODIR image is a copy of a project image (especially a
 TEST image) but the test images must never be uploaded. Hashes are one-way fingerprints,
-so we can upload them safely. Test images are only HASHED here (opened to read, never used
-for training or evaluation). No image is copied.
+so we can upload them safely. Test images are only HASHED here (opened to read and fingerprint;
+this script does not use them for training or evaluation). No image is copied.
 
 Run:  .venv/bin/python hash_target.py
 """
