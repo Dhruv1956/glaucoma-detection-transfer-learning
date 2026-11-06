@@ -19,6 +19,6 @@
   ],
   "batch_size": 32,
   "num_workers": 0,
-  "dataset_out_dir": "/home/claude/fake_home/Downloads/GlaucomaProject/dataset",
-  "results_out_dir": "/home/claude/fake_home/Downloads/GlaucomaProject/results"
+  "dataset_out_dir": "dataset",
+  "results_out_dir": "results"
 }

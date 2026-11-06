@@ -1,0 +1,4 @@
+source,n_pairs,hash_dist_min,hash_dist_max,pixel_mae_min,pixel_mae_max
+G1020,2,2,3,2.99,3.39
+REFUGE_train,6,0,2,3.54,4.96
+all,8,0,3,2.99,4.96
