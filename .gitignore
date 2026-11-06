@@ -54,3 +54,4 @@ results_final/
 *.bak
 
 # local-only folder (must not be committed)
+paper/
