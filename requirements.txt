@@ -1,0 +1,12 @@
+# Python packages imported by cv_ensemble/, common/ and analysis/ (standard library excluded).
+# Lower bounds are the versions of the local smoke-test environment (macOS, CPU, Python 3.9),
+# which is the only environment whose versions were recorded. The Kaggle GPU runs used the
+# packages preinstalled in the Kaggle image; their exact versions were not recorded.
+torch>=2.8,<3
+torchvision>=0.23,<1
+numpy>=2.0,<3
+pandas>=2.3,<3
+scikit-learn>=1.6,<2
+opencv-python-headless>=5.0,<6
+Pillow>=11,<12
+matplotlib>=3.9,<4

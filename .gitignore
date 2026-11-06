@@ -41,3 +41,14 @@ __pycache__/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# local work folders, editors, consent/admin documents, extra caches
+analysis_out/
+results_final/
+*.npy
+*.docx
+.idea/
+.vscode/
+.claude/
+*.egg-info/
+*.bak
